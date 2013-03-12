@@ -1,1 +1,0 @@
-<a href="{profile}" class="hintanchor" onMouseover="showhint('{hint}', this, event, '200px');"><span style="color:[user_group=1]red[/user_group][user_group=2]blue[/user_group][user_group=3]#8E8E8E[/user_group][user_group=4]#8E8E8E[/user_group];">{user_name}</span></a>, 
