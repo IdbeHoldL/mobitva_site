@@ -2,11 +2,11 @@
 
 define ("DBHOST", "localhost"); 
 
-define ("DBNAME", "datal");
+define ("DBNAME", "mobitva_site");
 
 define ("DBUSER", "root");
 
-define ("DBPASS", "");  
+define ("DBPASS", "123456");  
 
 define ("PREFIX", "dle"); 
 

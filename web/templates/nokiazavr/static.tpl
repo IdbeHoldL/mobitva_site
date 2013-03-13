@@ -1,9 +1,12 @@
+
 <div class="main_redkie">
 <div class="header_redkie">Редкие вещи</div>
   <div class="title_header_redkie">{description}</div>
 <div class="content_redkie">
 
+  
 {static}{pages}
+  
 
 </div>
 <div class="bottom_redkie"></div>

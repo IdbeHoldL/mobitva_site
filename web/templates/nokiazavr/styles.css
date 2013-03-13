@@ -905,11 +905,6 @@ a.pm_list:hover {
 
 
 /*        Редкие вещи                */
-.proverka{
-  background: url("images/vesch.png") no-repeat;
-  width: 490px;
-  height: 180px;
-}
 
 .header_redkie{
 background: url("images/redkie-top.png") no-repeat;
@@ -951,7 +946,17 @@ width:564px;
   margin-top: 20px;
 }
 
+.tr_redkie{
+height: 180px;
+}
+
+.td_redkie{
+height: 180px;
+
+}
+
 .title_redkie{
+  text-align: center;
     padding-top: 7px;
     font-weight: bold;
     font-size: 13pt;
@@ -990,7 +995,7 @@ width: 80px;
 
 .effect_redkie{
     float: left;
-    width: 161px;
+    width: 159px;
     height: 147px;  
 }
 

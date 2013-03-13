@@ -53,7 +53,7 @@
    <div id="content">
     
     <div class="bannerarea">
-       {banner_header}
+       
     </div> 
 
   {info}
@@ -68,12 +68,12 @@
    </div>
    <div class="leftbarcontent">
     <ul class="menulist">
-     <li><a href="http://localhost/info2/">Главная</a></li>
+      <li><a href="/">Главная</a></li>
      <li><a href="/soft/">Галерея персонажей</a></li>
            <li><a href="/icq/210-bayanicq-02f.html">Статьи от murdoc33</a></li>
      <li><a href="/games/">Видео о мобитве</a></li>
      <li><a href="/wallpapers/">Скриншотница</a></li>
-     <li><a href="http://localhost/info2/redkie-veschi.html">Редкие вещи</a></li>
+      <li><a href="/redkie-veschi.html">Редкие вещи</a></li>
      <li><a href="/faq/">Бот для Мобитвы 0.98</a></li>
      <li><a href="/index.php?do=feedback">Конфиги для бота 0.98</a></li>
       <li><a href="/index.php?do=feedback">Загрузки</a></li>

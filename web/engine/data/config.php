@@ -6,7 +6,7 @@ $config = array (
 
 'home_title' => "DataLife Engine",
 
-'http_home_url' => "http://localhost/info2/",
+'http_home_url' => "http://mobitva.local/",
 
 'charset' => "windows-1251",
 
@@ -28,7 +28,7 @@ $config = array (
 
 'skin' => "nokiazavr",
 
-'allow_admin_wysiwyg' => "yes",
+'allow_admin_wysiwyg' => "no",
 
 'allow_static_wysiwyg' => "no",
 
@@ -68,7 +68,7 @@ $config = array (
 
 'news_restricted' => "0",
 
-'smilies' => "smile,biggrin,blum,cool,cray,crazy,diablo,dance,dance1,dash,girl_ang,girl_cray,give_ros,air_kiss,girl_smi,girl_ten,bad,blush,bomb, boredom,bye,drinks,empathy,english,gamer,give_hea,good,negative,greeting,hang,hi,i_am_so_,ireful,kiss,lol,man_in_l,mocking, morning,music,nea,nyam,pardon,russian_,sad,sarcasti,scratch_,shok,shout,sorry,unknown,wacko,wink,yahoo,yes",
+'smilies' => "wink,winked,smile,am,belay,feel,fellow,laughing,lol,love,no,recourse,request,sad,tongue,wassat,crying,what,bully,angry",
 
 'timestamp_active' => "j-m-Y, H:i",
 
@@ -100,9 +100,9 @@ $config = array (
 
 'allow_add_tags' => "1",
 
-'allow_site_wysiwyg' => "yes",
+'allow_site_wysiwyg' => "no",
 
-'allow_quick_wysiwyg' => "1",
+'allow_quick_wysiwyg' => "0",
 
 'allow_comments' => "yes",
 
@@ -110,11 +110,11 @@ $config = array (
 
 'allow_subscribe' => "1",
 
-'allow_combine' => "0",
+'allow_combine' => "1",
 
 'max_comments_days' => "0",
 
-'comments_minlen' => "5",
+'comments_minlen' => "10",
 
 'comments_maxlen' => "3000",
 
@@ -132,7 +132,7 @@ $config = array (
 
 'mail_comments' => "1",
 
-'allow_comments_wysiwyg' => "yes",
+'allow_comments_wysiwyg' => "no",
 
 'allow_gzip' => "no",
 
@@ -277,8 +277,6 @@ $config = array (
 'rss_format' => "1",
 
 'version_id' => "9.4",
-
-'key' => "08f41f50e87bfcb61be013707be7b0e2",
 
 );
 

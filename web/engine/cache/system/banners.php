@@ -1,1 +1,1 @@
-a:0:{}
+a:1:{i:1;a:12:{s:2:"id";s:1:"1";s:10:"banner_tag";s:6:"header";s:5:"descr";s:14:"Верхний баннер";s:4:"code";s:195:"<div align="center"><a href="http://loadpays.com/s.php?f=1373" target="_blank"><img src="http://mobitva.local/templates/Default/images/Banner468-100.gif" style="border: none;" alt="" /></a></div>";s:7:"approve";s:1:"1";s:11:"short_place";s:1:"0";s:6:"bstick";s:1:"0";s:4:"main";s:1:"0";s:8:"category";s:1:"0";s:10:"grouplevel";s:3:"all";s:5:"start";s:0:"";s:3:"end";s:0:"";}}
