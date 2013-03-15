@@ -556,9 +556,8 @@ a.day-active:hover {
 .tags a:hover {border: none;}
 .tags,
 .anonimus { 
-   margin: 10px 0 10px 0; 
-  border-top: 1px dashed #d3d3d3; 
-  border-bottom: 1px dashed #d3d3d3; 
+   margin: 10px 0 0px 0; 
+  border-top: 1px dashed #d3d3d3;  
   padding: 5px 15px 5px 15px;
 }
 .anonimus {
@@ -680,7 +679,6 @@ a.readmore:hover {
 }
 .comment-add {
    width: 468px; 
-  margin: -20px auto; 
   padding-top: 20px; 
   background: url(images/comaddbg.jpg) no-repeat 50% 0;
 }
@@ -898,6 +896,7 @@ a.pm_list:hover {
 }
 
 .bbeditorbtns img {border: none !important; margin: 0 !important; padding: 0 !important;}
+.editor_button{width: 10px;}
 .bbeditortxtarea {border: 1px solid rgb(187, 187, 187); width: 460px; height: 156px; margin-top: -2px;}
 .articlecontent form img {border: none !important; margin:0 !important; padding: 0 !important;}
 
@@ -946,15 +945,6 @@ width:564px;
   margin-top: 20px;
 }
 
-.tr_redkie{
-height: 180px;
-}
-
-.td_redkie{
-height: 180px;
-
-}
-
 .title_redkie{
   text-align: center;
     padding-top: 7px;
@@ -988,15 +978,16 @@ width: 80px;
 
 .stat_redkie{
     float: left;
-    width: 189px;
+    width: 129px;
     height: 147px;
-    
+    padding: 20px;
 }
 
 .effect_redkie{
     float: left;
     width: 159px;
-    height: 147px;  
+    height: 147px; 
+ padding: 20px 0 0 20px; 
 }
 
 .peregorodka{

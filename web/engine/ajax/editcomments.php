@@ -219,9 +219,70 @@ HTML;
 	}
 	
 	$buffer = <<<HTML
-<div class="editor">
+<table width="100%" align="center">
+<tbody><tr>
+<td width="250" valign="top">
+<div class="smilesbox" id="smilesbox">
+<table align="center">
+<tbody>
+<tr>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':girl_ang:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/girl_ang.gif" alt="O:-)" title="O:-)"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':smile:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/smile.gif" alt=":-)" title=":-)"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':sad:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/sad.gif" alt=":-(" title=":-("></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':wink:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/wink.gif" alt=";-)" title=";-)"></td></tr>
+<tr><td align="center" width="39" height="39"><img onclick="dle_smiley(':dash:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/dash.gif" alt="DASH" title="DASH"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':crazy:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/crazy.gif" alt="Crazy" title="Crazy"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':gamer:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/gamer.gif" alt="Gamer" title="Gamer"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':bomb:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/bomb.gif" alt="Bomb" title="Bomb"></td></tr>
+<tr><td align="center" width="39" height="39"><img onclick="dle_smiley(':nea:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/nea.gif" alt="Nea" title="Nea"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':russian_:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/russian_.gif" alt="Russian" title="Russian"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':ireful:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/ireful.gif" alt="ireful" title="ireful"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':lol:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/lol.gif" alt="Lol" title="Lol"></td></tr>
+<tr><td align="center" width="39" height="39"><img onclick="dle_smiley(':morning:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/morning.gif" alt="Morning" title="Morning"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':pardon:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/pardon.gif" alt="Pardon" title="Pardon"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':shout:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/shout.gif" alt="Shout" title="Shout"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':drinks:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/drinks.gif" alt="BEER" title="BEER"></td></tr>
+<tr><td align="center" width="39" height="39"><img onclick="dle_smiley(':sarcasti:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/sarcasti.gif" alt="Sarcasti" title="Sarcasti"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':negative:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/negative.gif" alt="Negative" title="Negative"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':i_am_so_:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/i_am_so_.gif" alt="I am so" title="I am so"></td>
+<td align="center" width="39" height="39"><img onclick="dle_smiley(':hang:'); return false;" style="cursor: pointer;" src="/engine/data/emoticons/hang.gif" alt="HANG" title="HANG"></td></tr>
+</tbody>
+</table>
+</div>
+</td>
+<td valign="top">
+<div class="editorbox">
+<table cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
 {$bb_code}
-<textarea name="dleeditcomments{$id}" id="dleeditcomments{$id}" onclick="setNewField(this.name, document.getElementById( 'dlemasscomments' ) )" style="width:99%; height:150px; border:1px solid #E0E0E0; margin: 0px 1px 0px 0px;padding: 0px;">{$comm_txt}</textarea><br>
+</tr>
+</tbody>
+</table>
+</span>
+<span style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; position: absolute; display: none; " id="other_buttons_top_message" class="other_bar">
+<table cellpadding="0" cellspacing="0" style="background: url({THEME}/images/editor/background_silver.jpg);">
+<tbody>
+<tr></tr>
+</tbody>
+</table>
+</span>
+</div>
+</div>
+<textarea name="dleeditcomments{$id}" id="dleeditcomments{$id}" onclick="setNewField(this.name, document.getElementById( 'dlemasscomments' ) )" style="height: 164px; max-height: 220px;width: 450px; max-width: 450px;" class="main_editor">{$comm_txt}</textarea>
+<div class="resizeBar" id="resize_message">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
 <div align="right" style="width:99%;padding-top:5px;"><input class=bbcodes title="$lang[bb_t_apply]" type=button onclick="ajax_save_comm_edit('{$id}', '{$area}'); return false;" value="$lang[bb_b_apply]">
 <input class=bbcodes title="$lang[bb_t_cancel]" type=button onclick="ajax_cancel_comm_edit('{$id}'); return false;" value="$lang[bb_b_cancel]">
 </div></div>
