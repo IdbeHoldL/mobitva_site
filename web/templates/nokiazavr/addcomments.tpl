@@ -40,5 +40,5 @@
 </tr>
 [/recaptcha]
     <div align="center" style="margin-top: 20px;">
-	 <input style="border: none;" onclick="doAddComments();return false;" name="submit" type="image" src="{THEME}/images/commentsubmitbutton.jpg" alt="Отправить" /></div>
-	</div>
+   <input style="border: none;" onclick="doAddComments();return false;" name="submit" type="image" src="{THEME}/images/commentsubmitbutton.png" alt="Отправить" /></div>
+  </div>

@@ -28,9 +28,9 @@ $config = array (
 
 'skin' => "nokiazavr",
 
-'allow_admin_wysiwyg' => "no",
+'allow_admin_wysiwyg' => "yes",
 
-'allow_static_wysiwyg' => "no",
+'allow_static_wysiwyg' => "yes",
 
 'site_offline' => "no",
 
@@ -100,9 +100,9 @@ $config = array (
 
 'allow_add_tags' => "1",
 
-'allow_site_wysiwyg' => "no",
+'allow_site_wysiwyg' => "yes",
 
-'allow_quick_wysiwyg' => "0",
+'allow_quick_wysiwyg' => "1",
 
 'allow_comments' => "yes",
 
@@ -114,7 +114,7 @@ $config = array (
 
 'max_comments_days' => "0",
 
-'comments_minlen' => "10",
+'comments_minlen' => "3",
 
 'comments_maxlen' => "3000",
 
@@ -130,9 +130,9 @@ $config = array (
 
 'allow_search_link' => "1",
 
-'mail_comments' => "1",
+'mail_comments' => "0",
 
-'allow_comments_wysiwyg' => "no",
+'allow_comments_wysiwyg' => "yes",
 
 'allow_gzip' => "no",
 

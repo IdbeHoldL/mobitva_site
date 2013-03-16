@@ -210,7 +210,7 @@ form {
 .editor_click {cursor: pointer;}
 .editor_click:hover {padding: 0px;}
 .editorbox {
-width: 356px;
+width: 256px;
 margin: 1px; 
 padding: 5px; 
 background-color: #fff;  

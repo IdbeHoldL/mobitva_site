@@ -627,6 +627,7 @@ a.readmore:hover {
    Comment`s Style
   --------------------------------------- */
 .com-content{
+ 
   padding-left: 20px;
   width: 524px;
   min-height: 170px !important;
@@ -678,6 +679,8 @@ a.readmore:hover {
   color: black;
 }
 .comment-add {
+   margin-left: auto;
+   margin-right: auto;
    width: 468px; 
   padding-top: 20px; 
   background: url(images/comaddbg.jpg) no-repeat 50% 0;

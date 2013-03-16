@@ -1,6 +1,8 @@
-    <div class="comments">
-     <div class="com-top">
-      <div class="com-bottom">
+     <div class="comments">
+   <div class="com-top"></div>
+   
+   <div class="com-content">
+     
      <div class="com-left">
        <img class="avatar" src="{foto}" />
      <p>{usertitle}</p>
@@ -24,13 +26,17 @@
                                     </table>
      </div>
     </div>
+       <div class="com-bottom"></div>
 </div>
-</div>  
+
 [not-logged]
 <div id="options" style="display:none;">
-    <div class="comments">
-     <div class="com-top">
-      <div class="com-bottom">
+   <div class="comments">
+   <div class="com-top"></div>
+   
+   <div class="com-content">
+     
+     <div class="com-left"></div>
                                     <table border="0" cellspacing="0" cellpadding="0" id="useroptions">
                                       <tr>
                                         <td width="130" height="25">Ваш E-Mail:</td>
@@ -112,13 +118,14 @@
                                       <tr>
                                         <td width="130">&nbsp;</td>
                                         <td height="25"><div align="center" style="margin-top:20px;">
-                    <input type="image"  style="border: none;" src="{THEME}/images/commentsubmitbutton.jpg" name="submit" alt="Отправить" />
+                    <input type="image"  style="border: none;" src="{THEME}/images/commentsubmitbutton.png" name="submit" alt="Отправить" />
                                           <input name="submit" type="hidden" id="submit" value="submit" />
                                           </div></td>
                                       </tr>
                                     </table>
 </div>
+     <div class="com-bottom"></div>
     </div>
+  
 </div>
-</div>  
-[/not-logged]                                                                                                                                                                                                <div style="display:none;">бесплатно <a href="http://newdownload.ru/">Скачать игры</a> без регистрации и лучшие <a href="http://newtemplates.ru/">шаблоны dle</a> бесплатно <a href="http://allfilm.net/">бесплатно скачать фильмы</a></div>
+[/not-logged] 
